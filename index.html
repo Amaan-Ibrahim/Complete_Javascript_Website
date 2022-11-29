@@ -1,0 +1,630 @@
+<!-- <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+    <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+    </a>
+
+    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+      <li><a href="#" class="nav-link px-2 link-secondary">Overview</a></li>
+      <li><a href="#" class="nav-link px-2 link-dark">Inventory</a></li>
+      <li><a href="#" class="nav-link px-2 link-dark">Customers</a></li>
+      <li><a href="#" class="nav-link px-2 link-dark">Products</a></li>
+    </ul>
+
+    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+      <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+    </form>
+
+    <div class="dropdown text-end">
+      <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+        <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+      </a>
+      <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+        <li><a class="dropdown-item" href="#">New project...</a></li>
+        <li><a class="dropdown-item" href="#">Settings</a></li>
+        <li><a class="dropdown-item" href="#">Profile</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Sign out</a></li>
+      </ul>
+    </div>
+  </div> -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <title>LoGo</title>
+</head>
+
+<body class="bg-light" >
+    <!-- navbar -->
+    <header>
+        <div class="container-fluid ownnav" id="Home">
+            <nav class="navbar navbar-expand-lg navbar-light p-2">
+                <div class="container-fluid text-center">
+                    <a class="navbar-brand navlogo" href="#" style="font-size: 30px; font-weight: 600;"> <span
+                            style="color: #27ae60;"><i class="fas fa-utensils"></i></span> Lo<span
+                            style="color: #27ae60;">Go</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-3 ">
+                            <li class="nav-items">
+                                <a class="nav-link"  aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Category Dishes/categroy.html">category Dishes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./All Dishes/dishes.html">All Dishes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./about us.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#carouselExampleIndicators">Review</a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a class="nav-link" href="#Order">Order</a>
+                                </li> -->
+                                
+                        </ul>
+                        <div>
+                            <ul class="d-flex navbar-nav gap-3" style="list-style: none;">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"> <i class="fa fa-search"
+                                            aria-hidden="true"></i></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa fa-shopping-cart"
+                                            aria-hidden="true"></i></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- navbar -->
+
+    <!-- slider -->
+    <div id="carouselExampleControls" class="carousel slide mt-2" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" >
+                <div class="card ">
+                    <div class="row g-0 p-5">
+
+                        <div class="col-md-6 my-auto">
+                            <div class="card-body">
+                                <h5 class="card-title" style="color: #27ae60; font-size: 25px; font-weight: bold; ">Our
+                                    Special Dish</h5>
+                                <h2  style="color: #192a56;  font-weight: bold;">Fried Chicken</h2>
+                                <p class="text-muted fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Cupiditate
+                                    aperiam, corporis officia mollitia enim voluptatem!</p>
+                                <button class="btn" style="background-color: #192a56; color: #ffffff;">Order
+                                    Now</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="./images/home-img-2.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card mb-3">
+                    <div class="row g-0 p-5">
+
+                        <div class="col-md-6 my-auto">
+                            <div class="card-body">
+                                <h5 style="color: #27ae60; font-size: 25px; font-weight: bold; ">Our Special Dish</h5>
+                                <h2 style="color: #192a56; font-weight: bold;">Spicy Noddles</h2>
+                                <p class="text-muted fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Cupiditate
+                                    aperiam, corporis officia mollitia enim voluptatem!</p>
+                                <button class="btn" style="background-color: #192a56; color: #ffffff;">Order
+                                    Now</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="./images/home-img-1.png" class="img-fluid rounded-start" style="width: 580px;"
+                                alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card">
+                    <div class="row g-0 p-5">
+
+                        <div class="col-md-6 my-auto">
+                            <div class="card-body">
+                                <h5 style="color: #27ae60; font-size: 25px; font-weight: bold; ">Our Special Dish</h5>
+                                <h2 style="color: #192a56; font-size: 25px; font-weight: bold;">Hot Pizza</h2>
+                                <p class="text-muted fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Cupiditate
+                                    aperiam, corporis officia mollitia enim voluptatem!</p>
+                                <button class="btn" style="background-color: #192a56; color: #ffffff;">Order
+                                    Now</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="./images/home-img-3.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- slider -->
+
+    <!-- cut out -->
+    <div class="cutoutbody">
+        <div class="wrapper">
+            <div class="cards">
+                <h1>
+                    <span class="enclosed">Check</span>out
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!-- cut out -->
+    <div class="text-center mt-4">
+        <h4 style="color: #27ae60; font-weight: bold;">Our Dishes</h4>
+        <h2 style="color: #192a56;font-weight: bold;">POPULAR DISHES</h2>
+    </div>
+    <!-- Productsimg -->
+    <!-- <div class="container Productsimg ">
+        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 Productsimgfirst">
+            <div class="hovereffect">
+                <img class="img-responsive" src="./images/dish-1.png" alt="">
+                <div class="overlay">
+                    <h2>Zinger</h2>
+                    <p class="icon-links">
+                        <a href="#">
+                            <span class="fa fa-twitter"></span>
+                        </a>
+                        <a href="#">
+                            <span class="fa fa-facebook"></span>
+                        </a>
+                        <a href="#">
+                            <span class="fa fa-instagram"></span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+            <div class="hovereffect">
+                <img class="img-responsive" src="./images/dish-2.png" alt="">
+                <div class="overlay">
+                    <h2>Chiken Nugget</h2>
+                    <p class="icon-links">
+                        <a href="#">
+                            <span class="fa fa-twitter"></span>
+                        </a>
+                        <a href="#">
+                            <span class="fa fa-facebook"></span>
+                        </a>
+                        <a href="#">
+                            <span class="fa fa-instagram"></span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+            <div class="hovereffect">
+                <img class="img-responsive" src="./images/dish-3.png" alt="">
+                <div class="overlay">
+                    <h2>Charga</h2>
+                    <p class="icon-links">
+                        <a href="#">
+                            <span class="fa fa-twitter"></span>
+                        </a>
+                        <a href="#">
+                            <span class="fa fa-facebook"></span>
+                        </a>
+                        <a href="#">
+                            <span class="fa fa-instagram"></span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+            <div class="hovereffect">
+                <img class="img-responsive" src="./images/dish-4.png" alt="">
+                <div class="overlay">
+                    <h2>Pizza</h2>
+                    <p class="icon-links">
+                        <a href="#">
+                            <span class="fa fa-twitter"></span>
+                        </a>
+                        <a href="#">
+                            <span class="fa fa-facebook"></span>
+                        </a>
+                        <a href="#">
+                            <span class="fa fa-instagram"></span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="container" >
+        <div class="row" id="fristproductrow">
+        </div>
+
+    </div>
+    <!-- Productsimg -->
+
+
+    <div class="mb-5 mt-5">
+        <h4 class="text-center fw-bold" style="color: #27ae60;">About Us</h4>
+        <h2 class="text-center fw-bold" style="color: #192a56;">WHY CHOOSE US?</h2>
+    </div>
+    <!-- abouts us Div -->
+    <div class="container-fluid " id="About Us" style="background: white;">
+
+        <div class="secondmaindiv d-flex justify-content-around align-items-center flex-wrap">
+            <div class="left col-lg-6 col-12">
+                <img src="./images/about-img.png" class="img-fluid" alt="">
+            </div>
+            <div class="right col-lg-6 col-12" id="About">
+                <h1 style="color: #192a56;">Best Food In The Country</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias porro assumenda aut culpa
+                    neque voluptatum, reprehenderit vel velit! Ab explicabo atque quos repellendus odio eveniet sunt
+                    molestias similique ea!</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, veniam. </p>
+
+                <div class="d-flex flex-wrap gap-2">
+                    <p
+                        style="border-radius: 5px; border: 1px solid gray bg; background: rgb(223, 221, 221); width: 150px;height: 45px; text-align: center; padding-top: 10px;cursor: pointer; font-size: 16px;">
+                        <i class="fas fa-shipping-fast" style="color: #27ae60; font-size: 20px;"></i> Free Delivery
+                    </p>
+                    <p
+                        style="border-radius: 5px; border: 1px solid gray bg; background: rgb(223, 221, 221); width: 150px;height: 45px; text-align: center; padding-top: 10px;cursor: pointer; font-size: 16px;">
+                        <i class="fas fa-dollar-sign" style="color: #27ae60; font-size: 20px;"></i> Free Delivery
+                    </p>
+                    <p
+                        style="border-radius: 5px; border: 1px solid gray bg; background: rgb(223, 221, 221); width: 150px;height: 45px; text-align: center; padding-top: 10px;cursor: pointer; font-size: 16px;">
+                        <i class="fas fa-headset" style="color: #27ae60; font-size: 22px;"></i> Free Delivery
+                    </p>
+                </div>
+                <button type="button" class="btn"
+                    style="background-color: #192a56; color: #ffffff; width: 200px; font-weight: 600; margin-bottom: 10px;">Learn
+                    More</button>
+            </div>
+        </div>
+    </div>
+    <!-- abouts us  Div -->
+    <!-- ----- -->
+    <div class=" mb-5 mt-5">
+        <h4 class="text-center fw-bold" style="color: #27ae60;">About Us</h4>
+        <h2 class="text-center fw-bold" style="color: #192a56;">WHY CHOOSE US?</h2>
+    </div>
+    <!-- ----- -->
+<!-- cards -->
+    <div class="container"  style="font-family: 'Nunito', sans-serif;">
+        <div class="row" id="secproductrow">
+        </div>
+    </div>
+<!-- cards -->
+
+    <!-- ----------------------------------------------------------- -->
+    <div style="margin-top: 100px;">
+        <h4 class="text-center fw-bold" style="color: #27ae60;">Review</h4>
+        <h2 class="text-center fw-bold" style="color: #192a56;">WHY CHOOSE US?</h2>
+    </div>
+    <!-- customer Review -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="px-4 py-5 my-5 text-center">
+                    <img class="d-block mx-auto mb-4 rounded-circle" src="./images/pic-1.png" style="width: 130px;" alt="" >
+                    <h1 class="display-5 fw-bold">Centered hero</h1>
+                    <div class="col-lg-6 mx-auto">
+                        <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap,
+                            the world’s most popular front-end open source toolkit, featuring Sass variables and mixins,
+                            responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                       
+                    </div>
+                </div>
+            </div>
+           
+            <div class="carousel-item">
+                <div class="px-4 py-5 my-5 text-center">
+                    <img class="d-block mx-auto mb-4 rounded-circle" src="./images/pic-4.png" style="width: 130px;" alt="" >
+                    <h1 class="display-5 fw-bold">Centered hero</h1>
+                    <div class="col-lg-6 mx-auto">
+                        <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap,
+                            the world’s most popular front-end open source toolkit, featuring Sass variables and mixins,
+                            responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="px-4 py-5 my-5 text-center">
+                    <img class="d-block mx-auto mb-4 rounded-circle" src="./images/pic-2.png" style="width: 130px;" alt="" >
+                    <h1 class="display-5 fw-bold">Centered hero</h1>
+                    <div class="col-lg-6 mx-auto">
+                        <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap,
+                            the world’s most popular front-end open source toolkit, featuring Sass variables and mixins,
+                            responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="px-4 py-5 my-5 text-center">
+                    <img class="d-block mx-auto mb-4 rounded-circle" src="./images/pic-3.png" style="width: 130px;" alt="" >
+                    <h1 class="display-5 fw-bold">Centered hero</h1>
+                    <div class="col-lg-6 mx-auto">
+                        <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap,
+                            the world’s most popular front-end open source toolkit, featuring Sass variables and mixins,
+                            responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button  class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- customer Review -->
+<a href="#Home"><button class="btn btn-primary" style="margin-left: auto; margin-right: auto; display: block;">Back To Top</button></a>
+<!-- ----------------------------------------------------------- -->
+<!-- footer -->
+<div class="container-fluid   text-light p-3 mt-5 " style="background-color:#253242 ;">
+    <div class="row text-center mt-5">
+        <h2>NEWSLETTER</h2>
+        <p class="text-muted">Phasellus lacinia fermentum bibendum. Interdum et malesuada fames ac ante ipsumien
+            <br>lacus, eu posuere odi.
+        </p>
+        
+        <form class="d-flex searchbar">
+  <input class="form-control me-2 mt-3 p-2" type="search" placeholder="Search" aria-label="Search">
+  <button class="btn btn-outline-light mt-3 buttonname" type="submit">Search</button>
+  </form>
+    </div>
+    <div class=" mb-5" style="background-color:#253242 ; padding-bottom: 30px;">
+        <div class=" d-flex flex-wrap justify-content-around m-5 border-bottom">
+      <div>
+        <ul class="text-light" style="list-style: none; ">
+          <li class="fw-bolder mt-5 ">INFORMATION</li>
+          <li class="mt-3">About Us</li>
+          <li class="mt-2">FAQ</li>
+          <li class="mt-2">Order history</li>
+          <li class="mt-2">Order information</li>
+        </ul>
+      </div>
+      <div>
+        <ul class="text-light" style="list-style: none;">
+          <li class="fw-bolder mt-5">INFORMATION</li>
+          <li class="mt-3">About Us</li>
+          <li class="mt-2">FAQ</li>
+          <li class="mt-2">Order history</li>
+          <li class="mt-2">Order information</li>
+        </ul>
+      </div>
+      <div>
+        <ul class="text-light" style="list-style: none;">
+          <li class="fw-bolder mt-5">INFORMATION</li>
+          <li class="mt-3">About Us</li>
+          <li class="mt-2">FAQ</li>
+          <li class="mt-2">Order history</li>
+          <li class="mt-2">Order information</li>
+        </ul>
+      </div>
+      <div>
+        <ul class="text-light" style="list-style: none;">
+          <li class="fw-bolder mt-5">INFORMATION</li>
+          <li class="mt-3">About Us</li>
+          <li class="mt-2">FAQ</li>
+          <li class="mt-2">Order history</li>
+          <li class="mt-2">Order information</li>
+        </ul>
+      </div>
+    </div>
+    
+    </div>
+    <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor at iure, </p> -->
+  
+  </div>
+<!-- footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+<script>
+    const productsListOne = [
+        {
+            productImage: "./images/dish-1.png",
+            productName: "zinger",
+            productDescription: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
+            productPrice: "$1.50",
+            category: "zingerBurger",
+        },
+        {
+            productImage: "./images/dish-3.png",
+            productName: "Charga",
+            productDescription: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
+            productPrice: "$2.00",
+            category: "friedChicken",
+        },
+        {
+            productImage: "./images/dish-1.png",
+            productName: "Burger",
+            productDescription: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
+            productPrice: "$1.90",
+            category: "zingerBurger",
+        },
+        {
+            productImage: "./images/dish-5.png",
+            productName: "iceCareem",
+            productDescription: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
+            productPrice: "$1.00",
+            category: "iceCareem",
+        }
+    ]
+    const fristdishesrow=productsListOne.map((items)=>{
+        return`
+        <div class="col-md-3">
+                <div class="main d-flex justify-content-around align-items-center flex-wrap wrap mt-4">
+                    <div class="card1 mb-3" style="border: none; background: white; padding: 20px;">
+                        <div class="d-flex justify-content-around">
+
+                            <img src="${items.productImage}" style="width: 200px;">
+
+                        </div>
+                        <div>
+                            <h4 class="text-center" style="color: #192a56; font-weight: bold;">${items.productName}</h4>
+                            <div class="text-center">
+                                <i class="fa fa-star" style="color: #27ae60;" aria-hidden="true"></i>
+                                <i class="fa fa-star" style="color: #27ae60;" aria-hidden="true"></i>
+                                <i class="fa fa-star" style="color: #27ae60;" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-alt" aria-hidden="true"
+                                    style="color: #27ae60; font-weight: bold;"></i>
+
+                            </div>
+                            <div class="d-flex justify-content-around align-items-center mt-4">
+                                <h4 class="mt-2" style="color: #27ae60;">${items.productPrice}</h4>
+                                <button class="btn" style="background-color: #192a56; color: #ffffff;">Add to
+                                    cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `
+    }).join("")
+    console.log(fristdishesrow)
+    document.getElementById("fristproductrow").innerHTML=fristdishesrow
+    // -----------------------------------------------------------------------
+
+    const productsListTwo =[
+    {
+            productImage: "./images/menu-1.jpg",
+            productName: "Pizza",
+            productDescription: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
+            productPrice: "$12.99",
+            category: "Pizza",
+        },
+        {
+            productImage: "./images/menu-2.jpg",
+            productName: "Zinger Burger",
+            productDescription: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
+            productPrice: "$2.00",
+            category: "Burger",
+        },
+        {
+            productImage: "./images/menu-3.jpg",
+            productName: "Paratha",
+            productDescription: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
+            productPrice: "$1.90",
+            category: "Breakfast",
+        },
+        {
+            productImage: "./images/menu-4.jpg",
+            productName: "Ice cream",
+            productDescription: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
+            productPrice: "$1.50",
+            category: "ice Cream",
+        },
+        {
+            productImage: "./images/menu-5.jpg",
+            productName: "Sweet",
+            productDescription: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
+            productPrice: "$2.00",
+            category: "Sweet",
+        },
+        {
+            productImage: "./images/menu-6.jpg",
+            productName: "Cone Creamcup",
+            productDescription: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
+            productPrice: "$1.90",
+            category: "ice Cream",
+        }
+    ]
+const secProductrow=productsListTwo.map(
+    (items)=>{
+        return`
+        <div class="card col-lg-4 mt-3" style="width: 22rem;">
+                <img src="${items.productImage}" class="card-img-top rounded-3" style="margin-top: 15px; height: 245px;"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">
+
+                        <i class="fa fa-star" style="color: #27ae60;"></i>
+                        <i class="fa fa-star" style="color: #27ae60;"></i>
+                        <i class="fa fa-star" style="color: #27ae60;"></i>
+                        <i class="fa fa-star" style="color: #27ae60;"></i>
+                        <i class="fa fa-star-half-alt" style="color: #27ae60;"></i>
+                    </h5>
+                    <h3 style="color: #192a56; font-weight: bold;">${items.productName}</h3>
+
+
+                    <p class="card-text text-muted">${items.productDescription}</p>
+                    <div class="d-flex align-items-center">
+                        <a href="#" class="btn " style="background-color: #192a56; color: #ffffff;">Add To Cart </a>
+                        <h3 style="color: #27ae60; margin-left: 20px; margin-top: 5px;">${items.productPrice}</h3>
+                    </div>
+                </div>
+            </div>
+        `
+    }
+).join("")
+document.getElementById("secproductrow").innerHTML=secProductrow
+
+</script>
+
+</html>
